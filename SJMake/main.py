@@ -19,7 +19,7 @@ main(province,Operators)
 # 如有循环需要可以自行开启循环
 # if __name__ == '__main__':
 #     while True:
-#         main()
+#         main(province,Operators)
 
 
 
