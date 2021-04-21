@@ -8,4 +8,11 @@ B:为运营商名称
 例子：
 phoneHead.seven.randomSeven('广西','移动')
 
+
+
+运行效果：
+
+![image](https://user-images.githubusercontent.com/54022108/115617661-406d7f00-a324-11eb-8b27-31eeaef9384b.png)
+![image](https://user-images.githubusercontent.com/54022108/115617716-511df500-a324-11eb-9977-6202c8100fda.png)
+
 所有号码均为按地区随机批量生成，并不能保证其真实有效
