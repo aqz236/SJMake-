@@ -38,14 +38,11 @@ def mkdir(path):
         print(path+'目录已存在')
         return False
 
-
 def randomSeven(province,inputOperators):
     print("正在生成.....")
     Operators = getinputOperators(inputOperators)
     bb = f"{province}{inputOperators}生成结果\{province}地级市"
     mkdir(bb)
-
-
 
     for x in Operators:
         num = 9999
@@ -66,7 +63,6 @@ def randomSeven(province,inputOperators):
                             suffix = suffix + str(random.randint(0, 9))
                         phoneNum = str(phone) + str(suffix)
                         f2.write(phoneNum + "\n")
-
 
                         #总计
                     path = f"{province}{inputOperators}生成结果\{province}{inputOperators}手机号总合.txt"
